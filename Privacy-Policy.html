@@ -37,13 +37,13 @@
 <div class="wrap">
 
   <h1>Commands for amazon alexa — Privacy Policy &amp; Terms of Use</h1>
-  <p class="updated">Effective date: <strong>12/07/2026</strong> &nbsp;·&nbsp; Applies to the "Commands for amazon alexa" app distributed on the Amazon Appstore.</p>
+  <p class="updated">Effective date: <strong>26 September 2026</strong> &nbsp;·&nbsp; Applies to the "Commands for amazon alexa" app distributed on the Amazon Appstore and any other distribution where this policy is linked.</p>
 
   <div class="toc">
     <strong>On this page</strong>
     <a href="#privacy">1. Privacy Policy</a>
     <a href="#data-collected">&nbsp;&nbsp;1.1 Information We Collect</a>
-    <a href="#third-party">&nbsp;&nbsp;1.2 Third-Party Services (Amazon Appstore IAP)</a>
+    <a href="#third-party">&nbsp;&nbsp;1.2 Third-Party Services (Advertising, Consent &amp; Purchases)</a>
     <a href="#children">&nbsp;&nbsp;1.3 Children's Privacy</a>
     <a href="#security">&nbsp;&nbsp;1.4 Data Security &amp; Retention</a>
     <a href="#rights">&nbsp;&nbsp;1.5 Your Choices &amp; Rights</a>
@@ -68,28 +68,30 @@
       <tr><td>Account information (name, email, address)</td><td>No</td><td>The App does not require account creation and does not ask for this information.</td></tr>
       <tr><td>Precise or approximate location</td><td>No</td><td>The App does not access device location.</td></tr>
       <tr><td>Photos, microphone, camera, contacts</td><td>No</td><td>The App does not request access to these permissions.</td></tr>
-      <tr><td>App usage / diagnostics</td><td>Limited, on-device</td><td>Basic preferences (e.g. which categories you've viewed, whether Premium is active) are stored locally on your device using Android's standard app-storage APIs. This data is not transmitted to us.</td></tr>
-      <tr><td>Purchase / subscription status</td><td>Yes, via Amazon</td><td>When you purchase Premium, Amazon Appstore processes the transaction and provides the App with a purchase receipt (product ID, purchase date, cancellation status) so the App can unlock content. We do not receive or store your payment card details — Amazon handles all billing.</td></tr>
+      <tr><td>App preferences</td><td>Yes, on-device</td><td>Basic preferences (for example, categories viewed and locally cached Premium status) may be stored in the App's private storage. These preferences are not sent to the developer by the App.</td></tr>
+      <tr><td>Advertising and device information</td><td>May be processed by third parties</td><td>When ads are requested or displayed, Google AdMob, Amazon Publisher Services (APS), and participating advertising or mediation partners may process information such as IP address, advertising/device identifiers, device and app information, ad requests and interactions, approximate location inferred from IP address, and diagnostic or fraud-prevention signals. The information processed depends on the SDKs, partners, device settings, consent status, and ad configuration.</td></tr>
+      <tr><td>Purchase / subscription status</td><td>Yes, via Amazon where Amazon IAP is used</td><td>When you purchase Premium through Amazon Appstore, Amazon processes the transaction and the App may receive purchase information (such as product ID, purchase date, and purchase or cancellation status) to unlock content. We do not receive or store payment-card details; Amazon handles billing.</td></tr>
     </table>
   </div>
 
   <h3 id="third-party">1.2 Third-Party Services</h3>
-  <p>The App uses the following third-party service:</p>
+  <p>The App uses third-party services to support purchases, advertising, and privacy choices. The services used in a particular version or distribution may vary.</p>
   <ul>
-    <li><strong>Amazon Appstore In-App Purchasing (IAP):</strong> used exclusively to process Premium purchases
-    (subscription and lifetime unlock) and to verify your purchase/subscription status. Amazon's own privacy
-    practices govern the information it collects during checkout — see
-    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" target="_blank" rel="noopener">Amazon's Privacy Notice</a>.</li>
+    <li><strong>Amazon Appstore In-App Purchasing (IAP):</strong> The App integrates Amazon Appstore In-App Purchasing (IAP), as indicated by its Amazon IAP billing permission and purchase-response receiver. Amazon IAP processes purchases offered in the App (which may include a lifetime unlock or subscription, depending on the current product configuration) and provides purchase-response or receipt information needed to verify a transaction and unlock the purchased features. Amazon processes payment and checkout information; the developer does not receive or store your payment-card details. Amazon's privacy practices apply to information collected during checkout. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" target="_blank" rel="noopener">Amazon's Privacy Notice</a>.</li>
+    <li><strong>Google AdMob:</strong> The App may use the Google Mobile Ads SDK to request and display ads, measure ad performance, prevent fraud, and support advertising. Google may process information such as IP address, advertising/device identifiers, app and device information, ad requests and interactions, and diagnostic data, as described in <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google's explanation of how it uses data on partner apps and sites</a> and its applicable privacy disclosures.</li>
+    <li><strong>Amazon Publisher Services (APS):</strong> Where enabled, APS supplies advertising demand through integration with Google AdMob mediation. APS and participating advertising partners may process information needed to return, measure, and protect ads. The information processed depends on the integration and configuration.</li>
+    <li><strong>Google User Messaging Platform (UMP):</strong> The App uses UMP to request updated consent information and to present privacy or consent messages when required. UMP supports the App's handling of users' advertising privacy choices; it does not itself mean that every user is shown the same message or that every ad is personalized.</li>
   </ul>
-  <p>The App does not include third-party advertising SDKs, analytics SDKs that collect personal data, or social-media
-  tracking pixels.</p>
+  <p>Depending on the user's location, applicable law, consent choices, device settings, and the App's advertising configuration, advertising partners may process information for ad delivery, frequency capping, measurement, fraud prevention, and personalized or non-personalized advertising. Third-party providers process information under their own terms and privacy policies. The developer does not operate the advertising partners' systems and does not receive all information those partners may process.</p>
+  <p>For more information about Google's data practices, see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses data when you use our partners' sites or apps</a>. For Amazon's practices, see <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" target="_blank" rel="noopener">Amazon's Privacy Notice</a>.</p>
+  <p><strong>App permissions:</strong> the manifest declares network access permissions so the App and its enabled services can connect to the internet and check network connectivity. It also declares Wi-Fi state and phone-state permissions associated with the integrated advertising SDKs, and the Amazon IAP billing permission and response receiver needed for Amazon purchase processing. A permission declaration alone does not mean the developer independently collects or stores the related information. Actual access and processing depend on the app code, SDK behavior, device version, and configuration. The App does not request location, contacts, camera, or microphone permissions in the manifest shown for this version.</p>
 
   <h3 id="children">1.3 Children's Privacy</h3>
-  <p>The App is a general-audience utility app and is not directed at children under 13 (or the equivalent minimum
-  age in your region). We do not knowingly collect personal information from children. Because the App does not
-  collect personal information from any user in the ordinary course of operation, no age-verification mechanism is
-  required; however, if you believe a child has provided us with personal information, please contact us using the
-  details below and we will take appropriate action.</p>
+  <p>The App is intended as a general-audience utility and is not directed at children under 13 (or the applicable
+  minimum age in your region). The App does not ask users to create an account or intentionally collect children's
+  personal information for the developer. However, third-party advertising services may process device or advertising
+  information as described in Section 1.2 and subject to applicable settings and privacy choices. If you believe a
+  child has provided personal information directly to the developer, please contact us using the details in Section 3.</p>
 
   <h3 id="security">1.4 Data Security &amp; Retention</h3>
   <p>Local preference data (such as your Premium status cache) is stored using Android's private, app-scoped storage
@@ -104,10 +106,8 @@
     (Your Account → Digital Content and Devices → Your Apps → Your Subscriptions).</li>
     <li><strong>Delete local data:</strong> uninstalling the App removes all locally stored preference data from your
     device.</li>
-    <li><strong>Regional privacy rights</strong> (e.g. under GDPR or CCPA): because the App does not collect personal
-    data on our servers, most data-subject requests (access, deletion, portability) have no server-side data to act
-    on. If you have a request relating to data held by Amazon as part of your purchase, please contact Amazon
-    directly. For any other question, contact us using the details in Section 3.</li>
+    <li><strong>Advertising privacy choices:</strong> where required, the App uses UMP to show consent or privacy messages. If a Privacy Options entry is available in the App, you can use it to revisit or change your choices. You can also review relevant device privacy settings and the privacy controls provided by advertising partners. The choices available may depend on your region and the App version.</li>
+    <li><strong>Regional privacy rights</strong> (including rights under GDPR or applicable US state privacy laws): your rights depend on your location and the circumstances. The developer does not maintain a server-side account for ordinary App preferences. Advertising partners may process information under their own roles and policies, and Amazon may hold purchase information. For requests about information held by Amazon or an advertising provider, you may need to contact that provider directly. For questions or requests for which the developer is responsible, contact us using the details in Section 3.</li>
   </ul>
 
   <h2 id="terms">2. Terms of Use</h2>
@@ -116,7 +116,7 @@
 
   <h3 id="license">2.1 License</h3>
   <p>Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable,
-  revocable license to install and use the App on Amazon-compatible devices you own or control, solely for your
+  revocable license to install and use the App on compatible devices supported by the distribution channel from which you obtained it, solely for your
   personal, non-commercial use, in accordance with the Amazon Appstore Terms of Use.</p>
 
   <h3 id="subscriptions">2.2 Subscriptions, Free Trials &amp; Billing</h3>
@@ -166,9 +166,9 @@
   </div>
 
   <footer>
-    <p class="muted">This document is provided as a compliant starting point for Amazon Appstore submission. Please
-    replace the bracketed placeholders with your real contact details and have it reviewed by counsel before
-    publishing if you have specific legal requirements in your jurisdiction.</p>
+    <p class="muted">This policy describes the App's intended practices. Actual data processing may vary by App version,
+    distribution channel, SDK version, and configuration. Please keep this policy accurate as the App and its third-party
+    services change.</p>
   </footer>
 
 </div>
