@@ -1,7 +1,7 @@
 # Privacy Policy for APK Installer
 
 Last updated: 6 October 2026
-Publisher: [your name or company] (replace before publishing)
+Publisher: Rajmane
 
 APK Installer does not collect, store or share personal information. It has no accounts, no advertising, no analytics and no purchases.
 
