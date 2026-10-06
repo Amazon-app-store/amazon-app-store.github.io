@@ -15,4 +15,4 @@ APK Installer does not collect, store or share personal information. It has no a
 
 **Changes.** If this policy changes, the new version will be posted at the same address.
 
-**Contact.** your-email@example.com (replace before publishing)
+**Contact.** prathmesh.rajmane1@example.com 
